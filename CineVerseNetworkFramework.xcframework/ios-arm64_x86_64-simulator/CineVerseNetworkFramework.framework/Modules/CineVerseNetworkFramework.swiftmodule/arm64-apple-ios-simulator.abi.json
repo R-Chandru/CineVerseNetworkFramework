@@ -1,0 +1,1285 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.NetworkError.Type) -> CineVerseNetworkFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CineVerseNetworkFramework.NetworkError",
+                    "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CineVerseNetworkFramework.NetworkError",
+                        "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO10invalidURLyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO10invalidURLyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.NetworkError.Type) -> CineVerseNetworkFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CineVerseNetworkFramework.NetworkError",
+                    "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CineVerseNetworkFramework.NetworkError",
+                        "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO6noDatayA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO6noDatayA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.NetworkError.Type) -> CineVerseNetworkFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CineVerseNetworkFramework.NetworkError",
+                    "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CineVerseNetworkFramework.NetworkError",
+                        "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO08decodingE0yA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO08decodingE0yA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "CineVerseNetworkFramework.NetworkError",
+                "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "CineVerseNetworkFramework.NetworkError",
+                "usr": "s:25CineVerseNetworkFramework0C5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CineVerseNetworkFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO9hashValueSivp",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO9hashValueSivp",
+            "moduleName": "CineVerseNetworkFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CineVerseNetworkFramework0C5ErrorO9hashValueSivg",
+                "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO9hashValueSivg",
+                "moduleName": "CineVerseNetworkFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0C5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CineVerseNetworkFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25CineVerseNetworkFramework0C5ErrorO",
+        "mangledName": "$s25CineVerseNetworkFramework0C5ErrorO",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkResponse",
+        "printedName": "NetworkResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CineVerseNetworkFramework0C8ResponseV4dataxvp",
+            "mangledName": "$s25CineVerseNetworkFramework0C8ResponseV4dataxvp",
+            "moduleName": "CineVerseNetworkFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CineVerseNetworkFramework0C8ResponseV4dataxvg",
+                "mangledName": "$s25CineVerseNetworkFramework0C8ResponseV4dataxvg",
+                "moduleName": "CineVerseNetworkFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CineVerseNetworkFramework0C8ResponseV8responseSo13NSURLResponseCSgvp",
+            "mangledName": "$s25CineVerseNetworkFramework0C8ResponseV8responseSo13NSURLResponseCSgvp",
+            "moduleName": "CineVerseNetworkFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLResponse",
+                        "printedName": "Foundation.URLResponse",
+                        "usr": "c:objc(cs)NSURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CineVerseNetworkFramework0C8ResponseV8responseSo13NSURLResponseCSgvg",
+                "mangledName": "$s25CineVerseNetworkFramework0C8ResponseV8responseSo13NSURLResponseCSgvg",
+                "moduleName": "CineVerseNetworkFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25CineVerseNetworkFramework0C8ResponseV",
+        "mangledName": "$s25CineVerseNetworkFramework0C8ResponseV",
+        "moduleName": "CineVerseNetworkFramework",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CineVerseParamConstants",
+        "printedName": "CineVerseParamConstants",
+        "declKind": "Enum",
+        "usr": "s:25CineVerseNetworkFramework0aB14ParamConstantsO",
+        "mangledName": "$s25CineVerseNetworkFramework0aB14ParamConstantsO",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CineVerseAPI",
+        "printedName": "CineVerseAPI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "getLatestMovieList",
+            "printedName": "getLatestMovieList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO18getLatestMovieListyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO18getLatestMovieListyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getPopularMovieList",
+            "printedName": "getPopularMovieList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO19getPopularMovieListyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO19getPopularMovieListyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getMovieImage",
+            "printedName": "getMovieImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO13getMovieImageyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO13getMovieImageyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getMovieDetail",
+            "printedName": "getMovieDetail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO14getMovieDetailyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO14getMovieDetailyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getMovieDetailCredits",
+            "printedName": "getMovieDetailCredits",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO21getMovieDetailCreditsyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO21getMovieDetailCreditsyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getMovieDetailKeywords",
+            "printedName": "getMovieDetailKeywords",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CineVerseNetworkFramework.CineVerseAPI.Type) -> CineVerseNetworkFramework.CineVerseAPI",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CineVerseAPI",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                    "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CineVerseNetworkFramework.CineVerseAPI.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CineVerseAPI",
+                        "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                        "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO22getMovieDetailKeywordsyA2CmF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO22getMovieDetailKeywordsyA2CmF",
+            "moduleName": "CineVerseNetworkFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO2eeoiySbAC_ACtFZ",
+            "moduleName": "CineVerseNetworkFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO9hashValueSivp",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO9hashValueSivp",
+            "moduleName": "CineVerseNetworkFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO9hashValueSivg",
+                "mangledName": "$s25CineVerseNetworkFramework0aB3APIO9hashValueSivg",
+                "moduleName": "CineVerseNetworkFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0aB3APIO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25CineVerseNetworkFramework0aB3APIO4hash4intoys6HasherVz_tF",
+            "moduleName": "CineVerseNetworkFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25CineVerseNetworkFramework0aB3APIO",
+        "mangledName": "$s25CineVerseNetworkFramework0aB3APIO",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CineVerseNetworkService",
+        "printedName": "CineVerseNetworkService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseNetworkService",
+                "printedName": "CineVerseNetworkFramework.CineVerseNetworkService",
+                "usr": "s:25CineVerseNetworkFramework0abC7ServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25CineVerseNetworkFramework0abC7ServiceCACycfc",
+            "mangledName": "$s25CineVerseNetworkFramework0abC7ServiceCACycfc",
+            "moduleName": "CineVerseNetworkFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(with:requestID:params:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CineVerseNetworkFramework.NetworkResponse<τ_0_0>, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CineVerseNetworkFramework.NetworkResponse<τ_0_0>, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResponse",
+                        "printedName": "CineVerseNetworkFramework.NetworkResponse<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:25CineVerseNetworkFramework0C8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0abC7ServiceC7request4with0F2ID6params10completionyAA0aB3APIO_SSSgSDyS2SGys6ResultOyAA0C8ResponseVyxGs5Error_pGctSeRzlF",
+            "mangledName": "$s25CineVerseNetworkFramework0abC7ServiceC7request4with0F2ID6params10completionyAA0aB3APIO_SSSgSDyS2SGys6ResultOyAA0C8ResponseVyxGs5Error_pGctSeRzlF",
+            "moduleName": "CineVerseNetworkFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestImage",
+            "printedName": "requestImage(with:path:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResponse",
+                        "printedName": "CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:25CineVerseNetworkFramework0C8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0abC7ServiceC12requestImage4with4path10completionyAA0aB3APIO_SSys6ResultOyAA0C8ResponseVySo7UIImageCSgGs5Error_pGctF",
+            "mangledName": "$s25CineVerseNetworkFramework0abC7ServiceC12requestImage4with4path10completionyAA0aB3APIO_SSys6ResultOyAA0C8ResponseVySo7UIImageCSgGs5Error_pGctF",
+            "moduleName": "CineVerseNetworkFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25CineVerseNetworkFramework0abC7ServiceC",
+        "mangledName": "$s25CineVerseNetworkFramework0abC7ServiceC",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CineVerseNetworkServiceProtocol",
+            "printedName": "CineVerseNetworkServiceProtocol",
+            "usr": "s:25CineVerseNetworkFramework0abC15ServiceProtocolP",
+            "mangledName": "$s25CineVerseNetworkFramework0abC15ServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CineVerseNetworkFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CineVerseNetworkServiceProtocol",
+        "printedName": "CineVerseNetworkServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(with:requestID:params:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CineVerseNetworkFramework.NetworkResponse<τ_1_0>, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CineVerseNetworkFramework.NetworkResponse<τ_1_0>, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResponse",
+                        "printedName": "CineVerseNetworkFramework.NetworkResponse<τ_1_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_1_0"
+                          }
+                        ],
+                        "usr": "s:25CineVerseNetworkFramework0C8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0abC15ServiceProtocolP7request4with0G2ID6params10completionyAA0aB3APIO_SSSgSDyS2SGys6ResultOyAA0C8ResponseVyqd__Gs5Error_pGctSeRd__lF",
+            "mangledName": "$s25CineVerseNetworkFramework0abC15ServiceProtocolP7request4with0G2ID6params10completionyAA0aB3APIO_SSSgSDyS2SGys6ResultOyAA0C8ResponseVyqd__Gs5Error_pGctSeRd__lF",
+            "moduleName": "CineVerseNetworkFramework",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : CineVerseNetworkFramework.CineVerseNetworkServiceProtocol, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : CineVerseNetworkFramework.CineVerseNetworkServiceProtocol, T : Swift.Decodable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestImage",
+            "printedName": "requestImage(with:path:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CineVerseAPI",
+                "printedName": "CineVerseNetworkFramework.CineVerseAPI",
+                "usr": "s:25CineVerseNetworkFramework0aB3APIO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkResponse",
+                        "printedName": "CineVerseNetworkFramework.NetworkResponse<UIKit.UIImage?>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:25CineVerseNetworkFramework0C8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CineVerseNetworkFramework0abC15ServiceProtocolP12requestImage4with4path10completionyAA0aB3APIO_SSys6ResultOyAA0C8ResponseVySo7UIImageCSgGs5Error_pGctF",
+            "mangledName": "$s25CineVerseNetworkFramework0abC15ServiceProtocolP12requestImage4with4path10completionyAA0aB3APIO_SSys6ResultOyAA0C8ResponseVySo7UIImageCSgGs5Error_pGctF",
+            "moduleName": "CineVerseNetworkFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : CineVerseNetworkFramework.CineVerseNetworkServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : CineVerseNetworkFramework.CineVerseNetworkServiceProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25CineVerseNetworkFramework0abC15ServiceProtocolP",
+        "mangledName": "$s25CineVerseNetworkFramework0abC15ServiceProtocolP",
+        "moduleName": "CineVerseNetworkFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "Dictionary",
+      "offset": 204,
+      "length": 62,
+      "value": "[(\"api_key\", \"909594533c98883408adef5d56143539\")]"
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 47,
+      "value": "\"https:\/\/api.themoviedb.org\/3\/trending\/all\/day\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 45,
+      "value": "\"https:\/\/api.themoviedb.org\/3\/discover\/movie\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 37,
+      "value": "\"https:\/\/image.tmdb.org\/t\/p\/original\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 41,
+      "value": "\"https:\/\/api.themoviedb.org\/3\/movie\/{ID}\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 49,
+      "value": "\"https:\/\/api.themoviedb.org\/3\/movie\/{ID}\/credits\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 50,
+      "value": "\"https:\/\/api.themoviedb.org\/3\/movie\/{ID}\/keywords\""
+    },
+    {
+      "filePath": "\/Users\/chandru-13685\/Desktop\/CineVerseNetworkFramework\/CineVerseNetworkFramework\/Network\/NetworkHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 6,
+      "value": "\"{ID}\""
+    }
+  ]
+}

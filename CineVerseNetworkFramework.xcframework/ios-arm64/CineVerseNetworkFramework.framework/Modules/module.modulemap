@@ -1,0 +1,11 @@
+framework module CineVerseNetworkFramework {
+  umbrella header "CineVerseNetworkFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module CineVerseNetworkFramework.Swift {
+  header "CineVerseNetworkFramework-Swift.h"
+  requires objc
+}
